@@ -5,3 +5,4 @@ app.get('/hello-world',function(req,res){
 })
 app.use("/", express.static("./static"))
 app.listen(8080)
+
