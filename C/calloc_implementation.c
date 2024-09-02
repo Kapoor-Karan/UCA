@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int *custom_calloc(int n) {
-    int *arr = (int *)(malloc(4 * n));
+    int *arr = (int *)(malloc(n));
 
     for (int i = 0; i < n; i++){
         arr[i] = 0;
